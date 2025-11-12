@@ -3,10 +3,14 @@ class AppConstants {
   static const String appName = 'Al Marya Driver';
   static const String appVersion = '1.0.0';
 
-  // API Configuration
+  // API Configuration - Production
+  static const String baseUrl = 'https://almaryarostary.onrender.com';
+
+  // Local Development URL (uncomment for development)
   // Use 127.0.0.1 for iOS Simulator (localhost doesn't work on simulator)
   // For real device testing, replace with your Mac's IP (e.g., 192.168.1.x)
-  static const String baseUrl = 'http://127.0.0.1:5001';
+  // static const String baseUrl = 'http://127.0.0.1:5001';
+
   static const String apiUrl = '$baseUrl/api';
 
   // Driver Endpoints
